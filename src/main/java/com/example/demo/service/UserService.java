@@ -12,4 +12,6 @@ public interface UserService {
     Long addUser(User user);
 
     User findIdAndName(Long userId, String nickname);
+
+    int getUserCredit(Long userId);
 }
